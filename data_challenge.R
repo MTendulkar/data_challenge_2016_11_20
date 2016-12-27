@@ -50,8 +50,8 @@ first_users_04 <- unique(gdf[gdf$used_first_time_today == TRUE &
                                as.Date(gdf$date_time) == '2016-02-04'
                              ,"attributed_to"])
 first_users_10 <- unique(gdf[gdf$used_first_time_today == TRUE & 
-                               as.Date(gdf$date_time) == '2016-02-10',
-                             "attributed_to"])
+                               as.Date(gdf$date_time) == '2016-02-10'
+                             ,"attributed_to"])
 activity_04 <- gdf[gdf$attributed_to %in% first_users_04,]
 activity_10 <- gdf[gdf$attributed_to %in% first_users_10,]
 activity_04$day <- as.Date(activity_04$date_time)
