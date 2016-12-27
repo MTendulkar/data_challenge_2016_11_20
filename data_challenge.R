@@ -1,6 +1,6 @@
 ###
 ### Data challenge from an unnamed startup. 
-### They are a cery cool company and I really 
+### They are a very cool company and I really 
 ### enjoyed this challenge. 
 ### 
 ### Dataset had 4.5M rows in JSON-like format. 
